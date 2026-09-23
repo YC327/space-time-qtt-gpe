@@ -1,0 +1,26 @@
+2D GPE breathing-mode space-time all-at-once
+validation_pass = false
+picard_converged = true
+g1 = 12.5
+g2 = 6.25
+g_discrete = 44.44444444444444
+grid_shape = [32, 32]
+t_final = 12.566370614359172
+Nt = 256
+dt = 0.04908738521234052
+final_picard_change = 6.412806423648755e-6
+final_inner_global_residual = 4.625633176784287e-6
+solution_max_bond = 77
+max_allowed_solution_bond = 256
+density_max_bond = 158
+bond_cap_hit = false
+svd_cutoff_lambda = 1.0e-14
+max_inner_sweep_discarded_weight = 3.952393967665557e-14
+truncation_target = 1.0e-8
+norm_drift = 0.0003176099705808344
+relative_energy_drift = 1.8955384821964432e-5
+max_boundary_density = 9.812224826250982e-11
+expected_breathing_omega = 2.0
+measured_breathing_omega = 1.9922178988326849
+frequency_relative_error = 0.0038910505836575737
+expected_frequency_fit_RMSE = 0.014554738852292127
